@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameStateSaved" representedClassName=".GameStateSaved" syncable="YES">
+        <attribute name="end_date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="game_name" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="high_score_wins" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="phase_10" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="phases" attributeType="Transformable" customClassName="[Int]"/>
+        <attribute name="players" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="scores" attributeType="Transformable" customClassName="[[Int]]"/>
+        <attribute name="totals" attributeType="Transformable" customClassName="[Int]"/>
+    </entity>
+    <elements>
+        <element name="GameStateSaved" positionX="-63" positionY="-18" width="128" height="163"/>
+    </elements>
+</model>

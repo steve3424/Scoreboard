@@ -1,0 +1,25 @@
+-- ContentView
+	-- Finish theme
+
+-- CreateGameView
+	-- Tap player to edit name
+	-- add phase 10 support
+	-- reorder player list
+	-- Enforce unique game name ??
+	-- (SwiftUI bug) When cursor is on game_name text field and user taps player_name text field a warning comes up
+	-- (SwiftUI bug) Toggle views cause warning
+	-- (SwiftUI bug) Type in player name, dismiss keyboard, THEN add player, default text view string doesn't show up
+
+-- PreviousGamesView
+
+-- GameView
+	-- (NO NATIVE WAY IN SWIFTUI) Set focus to textfield immediately on edit
+	-- enforce minimum score
+	-- add phase 10 support
+	-- add dealer tracking support
+	-- make grid scrollable and have players and rounds track it ??
+	-- separate players and rounds visually from scores
+	-- (BUG) There is still some clickable space in editing area that triggers cell in background. I don't know how to fix this yet
+
+-- CongratsView
+	-- confetti or something
